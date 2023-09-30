@@ -41,7 +41,7 @@ const BOX_HEIGHT: c_int = 100;
 const URL: &str = concat!(env!("CARGO_PKG_HOMEPAGE"), "\0");
 const ENC: StringEncoding = StringEncoding::ASCII;
 
-const IMG_PATH: &Path = "img/ferris.png";
+const IMG_PATH: &Path = "img/ferris";
 const SOUND_PATH: &Path = "sfx/main_theme.pda";
 
 /// 2D point

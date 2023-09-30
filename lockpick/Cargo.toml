@@ -52,7 +52,7 @@ launch-sound-path = "sfx/jump"
 # assets = ["assets/**/*.wav", "assets/**/*.png"]
 # That means "just include all of this".
 [package.metadata.playdate.assets]
-"img/" = "assets/img/*.png"
+"img/ferris" = "assets/img/ferris.png"
 "sfx/" = "${PLAYDATE_SDK_PATH}/Examples/Level 1-1/Source/sfx/main_theme.wav"
 
 
