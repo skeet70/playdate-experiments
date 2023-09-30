@@ -1,0 +1,7 @@
+[target.thumbv7em-none-eabihf]
+rustflags = ["-Ctarget-cpu=cortex-m7", "-Clink-args=--emit-relocs", "-Crelocation-model=pic", "-Csoft-float=no", "-Clink-arg=--cref", "-Clink-arg=--gc-sections", "-Clink-arg=--entry=eventHandlerShim"]
+
+[unstable]
+avoid-dev-deps = true
+check-cfg = ["names", "values", "output"]
+unstable-options = true
