@@ -3,8 +3,7 @@
 ## initial setup
 
 ```console
-cargo search
-cargo install --git="https://github.com/boozook/playdate.git" cargo-playdate --bin=cargo-playdate
+cargo install cargo-playdate
 ```
 
 TODO: do this in the flake
